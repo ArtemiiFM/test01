@@ -27,7 +27,7 @@ def main():
     st.sidebar.header("Настройки")
     
     # Поле для ввода URL-шаблона
-    default_url = "https://eaassets-a.akamaihd.net/fifa/u/f/fcm23/prod/s/static/players/players_25/p???_RS24_ICON_ETC2.eaz"
+    default_url = "https://eaassets-a.akamaihd.net/fifa/u/f/fcm23/prod/s/static/players/players_25/p???_ANN25_ICON_ETC2.eaz"
     url_template = st.sidebar.text_input("URL-шаблон", value=default_url)
     
     # Загрузка файла с ID (txt)
